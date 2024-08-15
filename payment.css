@@ -1,0 +1,422 @@
+@import url(https://db.onlinewebfonts.com/c/d5887716b1014cf921b052756b6423ee?family=Worthbites+-+Rough);
+
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap);
+
+html{
+    overflow-x: hidden;
+    
+}
+body{
+     margin: 0px;
+    padding: 0px;
+}
+/* =========================Nav Starts=========================== */
+ 
+ label[for="inputbox"]
+ {
+    display: none;
+ }
+
+#nav{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    /* border: 2px solid black; */
+    overflow-x: hidden;
+
+}
+#nav li{
+    list-style-type: none;
+}
+
+#nav li  #nav1{
+    font-size: 20px;
+    font-family: "Roboto Condensed";
+    font-weight: 600;
+      /* border: 2px solid black; */
+      display: flex;
+      margin-right: 100px;  
+
+}
+#nav1 li{
+    list-style-type: none;
+      /* border: 2px solid black; */
+       padding: 20px;
+
+}
+#nav1 li a{
+    text-decoration: none;
+    color: black;
+    
+
+}
+
+   
+#nav #nav2 a img{
+    width: 60px;
+      /* border: 2px solid black; */
+    
+   
+
+}
+#nav3 {
+     font-size: 20px;
+    display: flex;
+      /* border: 2px solid black; */
+      margin-left: 250px;
+     
+
+  
+
+}
+#nav3 li a{
+    padding: 15px;
+    color: black;
+
+}
+#nav3 #pers,#hear,#cros{
+    display: inline-block;
+
+}
+#bars{
+    display: block;
+}
+
+
+@media(max-width:1041px){
+
+    
+
+    #nav li #nav1{
+        font-size: 18px;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        margin-right: 0px;
+        padding: 0px;
+       
+    }
+   
+    #nav #nav2 a img{
+        width: 60px;
+        padding-left: 80px;
+    }
+    #nav3{
+        margin-left: 140px;
+    }
+}
+@media(max-width:769px){
+    label[for="inputbox"]
+    {
+        font-size: 20px;
+       display: block;
+       /* display: inline; */
+       float: left;
+       padding-left: 40px;
+       padding-top: 15px;
+
+       
+     
+     /* border: 2px solid red; */
+    }
+    #inputbox:checked~#nav li  #nav1{
+        display: block;
+    }
+    /* #inputbox::before #nav li  #nav1{
+        transition: top .2s ease .22s, opacity .2s ease, width .2s ease;
+    } */
+
+
+    #nav{
+        justify-content: space-evenly;
+    }
+    #nav li  #nav1{
+        display: none;
+    }
+    #nav #nav2 a img{
+        width: 45px;
+        padding: 0px;
+     /* border: 2px solid red; */
+     padding-left: 180px;
+
+    }
+    #nav3 #pers,#hear,#cros{
+        display: none;
+       
+    }
+
+}
+@media(max-width:426px){
+    label[for="inputbox"]
+    {
+        font-size: 20px;
+       display: block;
+       float: left;
+       padding-left: 40px;
+       padding-top: 15px;
+     /* border: 2px solid red; */
+    }
+
+    #inputbox:checked~#nav li  #nav1{
+    display: block;
+     }
+     #nav #nav2 a img{
+        width: 45px;
+        padding: 0px;
+     /* border: 2px solid red; */
+     padding-left: 50px;
+
+    }
+    #nav3{
+        margin-left: 0px;
+
+    }
+    #nav3 #pers,#hear,#cros{
+        display: none;
+       
+    }
+
+}
+/* ===============================Nav bar ends======================================== */
+/* ================================Payment starts==================================================== */
+  
+#wishlist {
+    text-align: center;
+}
+#wishlist #w_g{
+    padding: 10px;
+    margin-top: 30px;
+}
+#wishlist #w_g #w_g1{
+    font-family: "Worthbites - Rough";
+    color: black;
+    font-size: 40px;
+  font-weight: 0px;
+  padding-bottom: 20px;
+}
+#w_g  #w_g2{
+    font-family: "Roboto Condensed" ;
+    font-size: 16px;
+    color: black;
+}
+#w_g  #w_g2 a{
+    color: black;
+    text-decoration: none;
+}
+
+
+#wishlist #no{
+   
+    margin-top: 100px;
+    font-family: "Worthbites - Rough";
+    color: black;
+    font-size: 25px;
+    margin-bottom: 80px;
+
+}
+#wishlist #no  a{
+    color: black;
+}
+
+/* ==========================Payment starts======================================== */
+/* ===================================Registration starts=================================================== */ */
+
+
+#Register {
+    padding-bottom: 80px;
+}
+
+#Register  #R_g{
+    text-align: center;
+    /* border: 2px solid black; */
+    padding-top: 50px;
+    padding: 60px 0px 60px 0px;
+}
+#Register  #R_g #R_g1{
+    font-family: "Worthbites - Rough";
+    color: black;
+    font-size: 40px;
+    padding-bottom: 25px;
+    padding-left: 30px;
+}
+#R_g #R_g2{
+    padding-left: 30px;
+    font-family: "Roboto Condensed" ;
+    font-size: 14px;
+    color: black;
+}
+#R_g #R_g2 a{
+    color: black;
+    text-decoration: none;
+}
+
+#reg_1{
+    /* text-align: center; */
+    /* border: 2px solid black; */
+ 
+}
+#reg_1_1{
+    /* width: 470px; */
+    /* border: 2px solid black; */
+    margin: 0px 425px 0px 425px;
+    padding: 0px 15px 0px 15px;
+}
+#reg_1_1 #reg_1_1{
+    /* border: 2px solid black; */
+    
+   
+}
+#reg_1 #reg_1_1 #re{
+    font-family: "Worthbites - Rough";
+    color: black;
+    font-size: 30px;
+    padding: 10px 0px 30px 0px;
+}
+#reg_1 #reg_1_1 #r_f input{
+    width: 470px;
+    height: 30px; 
+    background-color: #ffff;
+    color: black;
+    padding: 6px 12px 6px 12px;
+    font-size: 16px;
+    border: 1px solid #cfcdcdee;
+    margin-bottom: 15px;
+}
+#reg_1 #reg_1_1 #r_l input{
+    width: 470px;
+    height: 30px; 
+    background-color: #ffff;
+    color: black;
+    padding: 6px 12px 6px 12px;
+    font-size: 16px;
+    border: 1px solid #cfcdcdee;
+    margin-bottom: 15px;
+}
+#reg_1 #reg_1_1 #e_m input{
+    width: 470px;
+    height: 30px; 
+    background-color: #ffff;
+    color: black;
+    padding: 6px 12px 6px 12px;
+    font-size: 16px;
+    border: 1px solid #cfcdcdee;
+    margin-bottom: 15px;
+}
+#reg_1 #reg_1_1 #r_p input{
+    width: 470px;
+    height: 30px; 
+    background-color: #ffff;
+    color: black;
+    padding: 6px 12px 6px 12px;
+    font-size: 16px;
+    border: 1px solid #cfcdcdee;
+    margin-bottom: 15px;
+}
+#reg_1 #reg_1_1 p{
+    font-family: "Roboto Condensed";
+font-size: 16px;
+}
+#reg_1 #reg_1_1 #c_d input{
+    width: 470px;
+    height: 30px; 
+    background-color: #ffff;
+    color: black;
+    padding: 6px 12px 6px 12px;
+    font-size: 16px;
+    border: 1px solid #cfcdcdee;
+    margin-bottom: 15px;
+}
+#reg_1 #reg_1_1 #E_x input{
+    width: 470px;
+    height: 30px; 
+    background-color: #ffff;
+    color: black;
+    padding: 6px 12px 6px 12px;
+    font-size: 16px;
+    border: 1px solid #cfcdcdee;
+    margin-bottom: 15px;
+}
+#reg_1 #reg_1_1 #s_c input{
+    width: 470px;
+    height: 30px; 
+    background-color: #ffff;
+    color: black;
+    padding: 6px 12px 6px 12px;
+    font-size: 16px;
+    border: 1px solid #cfcdcdee;
+    margin-bottom: 15px;
+}
+#reg_1 #reg_1_1 #d_a input{
+    width: 470px;
+    height: 30px; 
+    background-color: #ffff;
+    color: black;
+    padding: 6px 12px 6px 12px;
+    font-size: 16px;
+    border: 1px solid #cfcdcdee;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+#reg_1 #reg_1_1 #btn_r{
+    padding: 10px 32px 10px 32px;
+    background-color: #d22727;
+    border:  1px solid #d22727;
+    cursor: pointer;
+    box-shadow: 0 0 10px  rgba(0,0,0,0.1);
+    transition: all 0.25s;
+    margin-top: 10px;
+    height: 45px;
+    width: 495px;
+}
+#reg_1 #reg_1_1 #btn_r a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Roboto Condensed";
+    font-size: 16px;
+    font-weight: 500;
+}
+#reg_1 #reg_1_1 #btn_r:hover{
+    box-shadow: 0 0 10px  rgba(0,0,0,0.5);
+transform: scale(1.1);
+text-transform: none;
+border:  1px solid #d22727;
+}
+
+#reg_1 #reg_1_1 #btn_log{
+    padding: 10px 32px 10px 32px;
+    background-color: #ffffff ;
+    color: #d22727;
+    border:  1px solid #d22727;
+    cursor: pointer;
+    box-shadow: 0 0 10px  rgba(0,0,0,0.1);
+    transition: all 0.4s;
+    margin-top: 10px;
+    height: 45px;
+    width: 495px;
+}
+#reg_1 #reg_1_1 #btn_log:hover{
+    background-color: #d22727;
+    color:white;
+    box-shadow: 0 0 10px  rgba(0,0,0,0.5);
+/* transform: scale(1.1); */
+/* text-transform: none; */
+border:  1px solid #d22727;
+}
+#reg_1 #reg_1_1 #btn_log a{
+    text-decoration: none;
+    color:#d22727 ;
+    font-family: "Roboto Condensed";
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#reg_1 #reg_1_1 #btn_log{
+    cursor: pointer;
+    color: #ffffff;
+}
+
+
+/* ======================Register ends==================================================== */

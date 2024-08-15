@@ -1,0 +1,479 @@
+@import url(https://db.onlinewebfonts.com/c/d5887716b1014cf921b052756b6423ee?family=Worthbites+-+Rough);
+
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap);
+
+html{
+    overflow-x: hidden;
+    
+}
+body{
+     margin: 0px;
+    padding: 0px;
+}
+/* =========================Nav Starts=========================== */
+ 
+ label[for="inputbox"]
+ {
+    display: none;
+ }
+
+#nav{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    /* border: 2px solid black; */
+    overflow-x: hidden;
+
+}
+#nav li{
+    list-style-type: none;
+}
+
+#nav li  #nav1{
+    font-size: 20px;
+    font-family: "Roboto Condensed";
+    font-weight: 600;
+      /* border: 2px solid black; */
+      display: flex;
+      margin-right: 100px;  
+
+}
+#nav1 li{
+    list-style-type: none;
+      /* border: 2px solid black; */
+       padding: 20px;
+
+}
+#nav1 li a{
+    text-decoration: none;
+    color: black;
+    
+
+}
+
+   
+#nav #nav2 a img{
+    width: 60px;
+      /* border: 2px solid black; */
+    
+   
+
+}
+#nav3 {
+     font-size: 20px;
+    display: flex;
+      /* border: 2px solid black; */
+      margin-left: 250px;
+     
+
+  
+
+}
+#nav3 li a{
+    padding: 15px;
+    color: black;
+
+}
+#nav3 #pers,#hear,#cros{
+    display: inline-block;
+
+}
+#bars{
+    display: block;
+}
+
+
+@media(max-width:1041px){
+
+    
+
+    #nav li #nav1{
+        font-size: 18px;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        margin-right: 0px;
+        padding: 0px;
+       
+    }
+   
+    #nav #nav2 a img{
+        width: 60px;
+        padding-left: 80px;
+    }
+    #nav3{
+        margin-left: 140px;
+    }
+}
+@media(max-width:769px){
+    label[for="inputbox"]
+    {
+        font-size: 20px;
+       display: block;
+       /* display: inline; */
+       float: left;
+       padding-left: 40px;
+       padding-top: 15px;
+
+       
+     
+     /* border: 2px solid red; */
+    }
+    #inputbox:checked~#nav li  #nav1{
+        display: block;
+    }
+    /* #inputbox::before #nav li  #nav1{
+        transition: top .2s ease .22s, opacity .2s ease, width .2s ease;
+    } */
+
+
+    #nav{
+        justify-content: space-evenly;
+    }
+    #nav li  #nav1{
+        display: none;
+    }
+    #nav #nav2 a img{
+        width: 45px;
+        padding: 0px;
+     /* border: 2px solid red; */
+     padding-left: 180px;
+
+    }
+    #nav3 #pers,#hear,#cros{
+        display: none;
+       
+    }
+
+}
+@media(max-width:426px){
+    label[for="inputbox"]
+    {
+        font-size: 20px;
+       display: block;
+       float: left;
+       padding-left: 40px;
+       padding-top: 15px;
+     /* border: 2px solid red; */
+    }
+
+    #inputbox:checked~#nav li  #nav1{
+    display: block;
+     }
+     #nav #nav2 a img{
+        width: 45px;
+        padding: 0px;
+     /* border: 2px solid red; */
+     padding-left: 50px;
+
+    }
+    #nav3{
+        margin-left: 0px;
+
+    }
+    #nav3 #pers,#hear,#cros{
+        display: none;
+       
+    }
+
+}
+/* ===============================Nav bar ends======================================== */
+/* ================================Contact us starts===================================== */
+#contact #contact_main {
+    display: flex;
+    /* border: 2px solid black; */
+    margin: 85px 75px 0px 75px;
+    padding: 0px 15px 0px 15px;
+
+   
+}
+#contact_main #c_m1{
+    /* border: 2px solid black; */
+    padding-right: 60px;
+}
+#contact_main #c_m1 div{
+    font-size: 60px;
+    text-align: center;
+    font-family: "Worthbites - Rough";
+    color: black;
+}
+#contact_main #c_m1 p{
+    font-family: "Roboto Condensed";
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+#contact_main #c_m1 #name_1{
+    width: 300px;
+    height: 30px; 
+    background-color: #ffff;
+    color: black;
+    padding: 6px 12px 6px 12px;
+    font-size: 16px;
+    border: 1px solid #cfcdcdee;
+    margin-bottom: 15px;
+}
+#contact_main #c_m1 #email_1{
+    width: 300px;
+    height: 30px; 
+    background-color: #ffff;
+    color: black;
+    padding: 6px 12px 6px 12px;
+    font-size: 16px;
+    border: 1px solid #cfcdcdee;
+    margin-bottom: 15px;
+}
+#contact_main #c_m1 #text_1{
+    width: 630px;
+    height: 200px; 
+    background-color: #ffff;
+    color: black;
+    padding: 6px 12px 6px 12px;
+    font-size: 16px;
+    border: 1px solid #cfcdcdee;
+    margin-bottom: 15px;
+}
+#contact_main #c_m1  label{
+    font-family: "Roboto Condensed";
+    font-size: 16px;
+    
+}
+#contact_main #c_m1 button{
+    padding: 15px 40px 15px 40px;
+    border-radius: 10px;
+    background-color: black;
+    border:  1px solid black;
+    cursor: pointer;
+    box-shadow: 0 0 10px  rgba(0,0,0,0.1);
+    transition: all 0.25s;
+    margin-top: 30px;
+}
+#contact_main #c_m1 button a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Roboto Condensed";
+    font-size: 16px;
+    font-weight: 500;
+}
+#contact_main #c_m1 button:hover{
+    box-shadow: 0 0 10px  rgba(0,0,0,0.5);
+    transform: scale(1.1);
+    text-transform: none;
+    border:  1px solid black;
+}
+
+#c_m2{
+    padding: 30px;
+}
+
+
+#c_m2 #add div{
+    font-family: "Roboto Condensed";
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    
+}
+#c_m2 #add p{
+    font-family: "Roboto Condensed";
+    font-size: 16px;
+    /* font-weight: 500; */
+    padding-bottom: 20px;
+}
+#c_m2 #info div{
+    font-family: "Roboto Condensed";
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    
+}
+#c_m2 #info p{
+    font-family: "Roboto Condensed";
+    font-size: 16px;
+    /* font-weight: 500; */
+    padding-bottom: 20px;
+    
+}
+#c_m2 #open div{
+    font-family: "Roboto Condensed";
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+#c_m2 #open p{
+    font-family: "Roboto Condensed";
+    font-size: 16px;
+    /* font-weight: 500; */
+    
+}
+#c_m2 #social #s{
+    font-family: "Roboto Condensed";
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    margin-top: 40px;
+}
+#c_m2 #social #icons a{
+   color: black;
+   padding: 10px;
+   font-size: 25px;
+}
+
+/* ====================================Footer starts======================================================= --> */ 
+#footer{
+    background-color: #f7e6e6;
+}
+#first_f{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+    /* border: 2px solid black; */
+    padding-top: 50px;
+}
+#footer_1 #footer_1_1{
+    padding: 10px;
+    /* border: 2px solid black; */
+}
+#footer_1 #footer_1_1 #miss{
+    font-family: "Worthbites - Rough";
+    color: black;
+    font-size: 60px;
+    padding: 10px 0px 10px 0px;
+
+}
+#footer_1 #footer_1_1 p{
+    font-family: "Roboto Condensed" ;
+font-size: 16px;
+color: black;
+padding: 5px 0px 10px 0px;
+height: 48px;
+width: 340px;
+}
+#footer_1 #footer_1_1 #input input{
+    /* padding: 20px; */
+    background-color: #ffffff;
+    padding: 12px 20px 12px 20px;
+    color: black;
+    font-family: "Roboto Condensed" ;
+    font-size: 15px;
+    border: 2px solid #ffffff;
+    
+
+
+}
+#footer_1 #footer_1_1 #input button{
+    padding: 15px ;
+    height: 44px;
+    width: 44px;
+    background-color: #d22727;
+    border:  1px solid #d22727;
+    cursor: pointer;
+}
+#footer_1 #footer_1_1 #input button i{
+    font-size: 15px;
+    color: #ffffff;
+}
+
+#first_f #footer_2{
+    margin: 20px;
+}
+#first_f #footer_2 #footer_2_2{
+    /* padding: 10px; */
+    /* border: 2px solid red; */
+
+}
+#footer_2 #footer_2_2 #ser{
+    font-family: "Roboto Condensed" ;
+    font-size: 18px;
+    color: black;
+    padding: 8px ;
+    font-weight: 600;
+   
+}
+#footer_2 #footer_2_2 #p,#r,#s,#t{
+    font-family: "Roboto Condensed" ;
+    font-size: 16px;
+    padding: 8px;
+
+}
+#first_f #footer_3{
+    margin: 20px;
+}
+#footer_3 #footer_3_3{
+
+}
+#footer_3 #footer_3_3 #comp{
+    font-family: "Roboto Condensed" ;
+    font-size: 18px;
+    color: black;
+    padding: 8px ;
+    font-weight: 600;
+    /* margin-bottom: 10px; */
+
+}
+#footer_3 #footer_3_3 #f{
+    margin-bottom: 10px;
+}
+#footer_3 #footer_3_3 #f a{
+    color: black;
+}
+#footer_3 #footer_3_3 #f,#hello{
+    font-family: "Roboto Condensed" ;
+    font-size: 16px;
+    padding: 8px;
+}
+
+#first_f #footer_4{
+    margin: 20px;
+}
+#footer_4 #footer_4_4 #social{
+    font-family: "Roboto Condensed" ;
+    font-size: 18px;
+    color: black;
+    padding: 8px ;
+    font-weight: 600;
+}
+
+#footer_4 #footer_4_4 #icon{
+    padding: 10px;
+}
+#footer_4 #footer_4_4 #icon i{
+    margin: 10px;
+    font-size: 25px;
+    color: black;
+}
+
+#footer #second_f{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+#second_f #mini{
+    padding-left: 80px;
+    padding-top: 20px;
+    /* margin: 40px; */
+    /* border: 2px solid black; */
+   
+}
+#second_f #icon_visa{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* border: 2px solid rgb(68, 49, 49); */
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+
+}
+#second_f #icon_visa div{
+    padding: 10px;
+ 
+  
+  
+}
+#second_f #icon_visa div img{
+    width: 30px;
+    background-color: #ffffff;
+    padding: 6px;
+
+  
+}

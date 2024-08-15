@@ -1,0 +1,1103 @@
+@import url(https://db.onlinewebfonts.com/c/d5887716b1014cf921b052756b6423ee?family=Worthbites+-+Rough);
+
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap);
+
+html{
+    overflow-x: hidden;
+    
+}
+body{
+     margin: 0px;
+    padding: 0px;
+}
+/* =========================Nav Starts=========================== */
+ 
+ label[for="inputbox"]
+ {
+    display: none;
+ }
+
+#nav{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    /* border: 2px solid black; */
+    overflow-x: hidden;
+
+}
+#nav li{
+    list-style-type: none;
+}
+
+#nav li  #nav1{
+    font-size: 20px;
+    font-family: "Roboto Condensed";
+    font-weight: 600;
+      /* border: 2px solid black; */
+      display: flex;
+      margin-right: 100px;  
+
+}
+#nav1 li{
+    list-style-type: none;
+      /* border: 2px solid black; */
+       padding: 20px;
+
+}
+#nav1 li a{
+    text-decoration: none;
+    color: black;
+    
+
+}
+
+   
+#nav #nav2 a img{
+    width: 60px;
+      /* border: 2px solid black; */
+    
+   
+
+}
+#nav3 {
+     font-size: 20px;
+    display: flex;
+      /* border: 2px solid black; */
+      margin-left: 250px;
+     
+
+  
+
+}
+#nav3 li a{
+    padding: 15px;
+    color: black;
+
+}
+#nav3 #pers,#hear,#cros{
+    display: inline-block;
+
+}
+#bars{
+    display: block;
+}
+
+
+@media(max-width:1041px){
+
+    
+
+    #nav li #nav1{
+        font-size: 18px;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        margin-right: 0px;
+        padding: 0px;
+       
+    }
+   
+    #nav #nav2 a img{
+        width: 60px;
+        padding-left: 80px;
+    }
+    #nav3{
+        margin-left: 140px;
+    }
+}
+@media(max-width:769px){
+    label[for="inputbox"]
+    {
+        font-size: 20px;
+       display: block;
+       /* display: inline; */
+       float: left;
+       padding-left: 40px;
+       padding-top: 15px;
+
+       
+     
+     /* border: 2px solid red; */
+    }
+    #inputbox:checked~#nav li  #nav1{
+        display: block;
+    }
+    /* #inputbox::before #nav li  #nav1{
+        transition: top .2s ease .22s, opacity .2s ease, width .2s ease;
+    } */
+
+
+    #nav{
+        justify-content: space-evenly;
+    }
+    #nav li  #nav1{
+        display: none;
+    }
+    #nav #nav2 a img{
+        width: 45px;
+        padding: 0px;
+     /* border: 2px solid red; */
+     padding-left: 180px;
+
+    }
+    #nav3 #pers,#hear,#cros{
+        display: none;
+       
+    }
+
+}
+@media(max-width:426px){
+    label[for="inputbox"]
+    {
+        font-size: 20px;
+       display: block;
+       float: left;
+       padding-left: 40px;
+       padding-top: 15px;
+     /* border: 2px solid red; */
+    }
+
+    #inputbox:checked~#nav li  #nav1{
+    display: block;
+     }
+     #nav #nav2 a img{
+        width: 45px;
+        padding: 0px;
+     /* border: 2px solid red; */
+     padding-left: 50px;
+
+    }
+    #nav3{
+        margin-left: 0px;
+
+    }
+    #nav3 #pers,#hear,#cros{
+        display: none;
+       
+    }
+
+}
+/* ===============================Nav bar ends======================================== */
+/* ==================================Product starts================================================= */
+
+#Product{
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+   padding: 50px;
+ 
+}
+#Product #pro_1{
+   /* border: 2px solid black; */
+   margin-bottom: 50px;
+
+}
+#pro_1 #pro_1img img{
+    width: 300px;
+}
+#pro_1 #pro_1_1{
+    text-align: center;
+}
+
+
+#pro_1 #p_g{
+    font-family: "Worthbites - Rough";
+    color: black;
+    font-size: 27px;
+}
+#pro_1 #p_p{
+    font-size: 16px;
+    font-family: "Roboto Condensed" ;
+    color: black;
+    padding: 10px 0px 10px 0px;
+}
+#pro_1 #p_q{
+    font-size: 16px;
+    font-family: "Roboto Condensed" ;
+    color: black;
+    /* padding: 10px 0px 10px 0px; */
+}
+
+#wrapper{
+    border: 1px solid black;
+    display: inline;
+    padding: 10px;
+    
+}
+#wrapper #num{
+    padding: 20px;
+}
+#pro_1_1 button{
+    padding: 10px 32px 10px 32px;
+    background-color: #d22727;
+    border:  1px solid #d22727;
+    cursor: pointer;
+    box-shadow: 0 0 10px  rgba(0,0,0,0.1);
+    transition: all 0.25s;
+    margin-top: 30px;
+}
+#pro_1_1 button a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Roboto Condensed";
+    font-size: 16px;
+    font-weight: 500;
+}
+#pro_1_1 button:hover{
+    box-shadow: 0 0 10px  rgba(0,0,0,0.5);
+    transform: scale(1.1);
+    text-transform: none;
+    border:  1px solid #d22727;
+}
+/* ----------------------------------------- */
+#Product #pro_2{
+    /* border: 2px solid black; */
+    margin-bottom: 50px;
+ }
+ #pro_2 #pro_2img img{
+     width: 300px;
+ }
+ #pro_2 #pro_2_2{
+     text-align: center;
+ }
+ 
+ 
+ #pro_2 #p_g2{
+     font-family: "Worthbites - Rough";
+     color: black;
+     font-size: 27px;
+ }
+ #pro_2 #p_p2{
+     font-size: 16px;
+     font-family: "Roboto Condensed" ;
+     color: black;
+     padding: 10px 0px 10px 0px;
+ }
+ #pro_2 #p_q2{
+     font-size: 16px;
+     font-family: "Roboto Condensed" ;
+     color: black;
+     /* padding: 10px 0px 10px 0px; */
+ }
+ 
+ #wrapper2{
+     border: 1px solid black;
+     display: inline;
+     padding: 10px;
+     
+ }
+ #wrapper2 #num2{
+     padding: 20px;
+ }
+ #pro_2_2 button{
+     padding: 10px 32px 10px 32px;
+     background-color: #d22727;
+     border:  1px solid #d22727;
+     cursor: pointer;
+     box-shadow: 0 0 10px  rgba(0,0,0,0.1);
+     transition: all 0.25s;
+     margin-top: 30px;
+ }
+ #pro_2_2 button a{
+     text-decoration: none;
+     color: #ffffff;
+     font-family: "Roboto Condensed";
+     font-size: 16px;
+     font-weight: 500;
+ }
+ #pro_2_2 button:hover{
+     box-shadow: 0 0 10px  rgba(0,0,0,0.5);
+     transform: scale(1.1);
+     text-transform: none;
+     border:  1px solid #d22727;
+ }
+ /* ------------------------------------------------ */
+ #Product #pro_3{
+    /* border: 2px solid black; */
+  
+    margin-bottom: 50px;
+ }
+ #pro_3 #pro_3img img{
+     width: 300px;
+ }
+ #pro_3 #pro_3_3{
+     text-align: center;
+ }
+ 
+ 
+ #pro_3 #p_g3{
+     font-family: "Worthbites - Rough";
+     color: black;
+     font-size: 27px;
+ }
+ #pro_3 #p_p3{
+     font-size: 16px;
+     font-family: "Roboto Condensed" ;
+     color: black;
+     padding: 10px 0px 10px 0px;
+ }
+ #pro_3 #p_q3{
+     font-size: 16px;
+     font-family: "Roboto Condensed" ;
+     color: black;
+     /* padding: 10px 0px 10px 0px; */
+ }
+ 
+ #wrapper3{
+     border: 1px solid black;
+     display: inline;
+     padding: 10px;
+     
+ }
+ #wrapper3 #num3{
+     padding: 20px;
+ }
+ #pro_3_3 button{
+     padding: 10px 32px 10px 32px;
+     background-color: #d22727;
+     border:  1px solid #d22727;
+     cursor: pointer;
+     box-shadow: 0 0 10px  rgba(0,0,0,0.1);
+     transition: all 0.25s;
+     margin-top: 30px;
+ }
+ #pro_3_3 button a{
+     text-decoration: none;
+     color: #ffffff;
+     font-family: "Roboto Condensed";
+     font-size: 16px;
+     font-weight: 500;
+ }
+ #pro_3_3 button:hover{
+     box-shadow: 0 0 10px  rgba(0,0,0,0.5);
+     transform: scale(1.1);
+     text-transform: none;
+     border:  1px solid #d22727;
+ }
+ /* -------------------------------------- */
+ #Product #pro_4{
+    /* border: 2px solid black; */
+ }
+ #pro_4 #pro_4img img{
+     width: 300px;
+ }
+ #pro_4 #pro_4_4{
+     text-align: center;
+ }
+ 
+ 
+ #pro_4 #p_g4{
+     font-family: "Worthbites - Rough";
+     color: black;
+     font-size: 27px;
+ }
+ #pro_4 #p_p4{
+     font-size: 16px;
+     font-family: "Roboto Condensed" ;
+     color: black;
+     padding: 10px 0px 10px 0px;
+ }
+ #pro_4 #p_q4{
+     font-size: 16px;
+     font-family: "Roboto Condensed" ;
+     color: black;
+     /* padding: 10px 0px 10px 0px; */
+ }
+ 
+ #wrapper4{
+     border: 1px solid black;
+     display: inline;
+     padding: 10px;
+     
+ }
+ #wrapper4 #num4{
+     padding: 20px;
+ }
+ #pro_4_4 button{
+     padding: 10px 32px 10px 32px;
+     background-color: #d22727;
+     border:  1px solid #d22727;
+     cursor: pointer;
+     box-shadow: 0 0 10px  rgba(0,0,0,0.1);
+     transition: all 0.25s;
+     margin-top: 30px;
+ }
+ #pro_4_4 button a{
+     text-decoration: none;
+     color: #ffffff;
+     font-family: "Roboto Condensed";
+     font-size: 16px;
+     font-weight: 500;
+ }
+ #pro_4_4 button:hover{
+     box-shadow: 0 0 10px  rgba(0,0,0,0.5);
+     transform: scale(1.1);
+     text-transform: none;
+     border:  1px solid #d22727;
+ }
+/* -------------------------------------- */
+/* ---------------------part2-"n"---------------------------- */
+/* #Product_n{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 50px; 
+  } */
+ #Product_n #pro_n1{
+    /* border: 2px solid black; */
+    /* margin-bottom: 50px; */
+    /* padding-top: 50px; */
+ 
+ }
+ #pro_n1 #pro_n1img img{
+     width: 300px;
+ }
+ #pro_n1 #pro_n1_n1{
+     text-align: center;
+ }
+ 
+ 
+ #pro_n1 #p_gn{
+     font-family: "Worthbites - Rough";
+     color: black;
+     font-size: 27px;
+ }
+ #pro_n1 #p_pn{
+     font-size: 16px;
+     font-family: "Roboto Condensed" ;
+     color: black;
+     padding: 10px 0px 10px 0px;
+ }
+ #pro_n1 #p_qn{
+     font-size: 16px;
+     font-family: "Roboto Condensed" ;
+     color: black;
+     /* padding: 10px 0px 10px 0px; */
+ }
+ 
+ #wrappern{
+     border: 1px solid black;
+     display: inline;
+     padding: 10px;
+     
+ }
+ #wrappern #numn{
+     padding: 20px;
+ }
+ #pro_n1_n1 button{
+     padding: 10px 32px 10px 32px;
+     background-color: #d22727;
+     border:  1px solid #d22727;
+     cursor: pointer;
+     box-shadow: 0 0 10px  rgba(0,0,0,0.1);
+     transition: all 0.25s;
+     margin-top: 30px;
+ }
+ #pro_n1_n1 button a{
+     text-decoration: none;
+     color: #ffffff;
+     font-family: "Roboto Condensed";
+     font-size: 16px;
+     font-weight: 500;
+ }
+ #pro_n1_n1 button:hover{
+     box-shadow: 0 0 10px  rgba(0,0,0,0.5);
+     transform: scale(1.1);
+     text-transform: none;
+     border:  1px solid #d22727;
+ }
+ /* ----------------------------------------- */
+ #Product_n #pro_n2{
+     /* border: 2px solid black; */
+     margin-bottom: 50px;
+  }
+  #pro_n2 #pro_n2img img{
+      width: 300px;
+  }
+  #pro_n2 #pro_n2_n2{
+      text-align: center;
+  }
+  
+  
+  #pro_n2 #p_g2n{
+      font-family: "Worthbites - Rough";
+      color: black;
+      font-size: 27px;
+  }
+  #pro_n2 #p_p2n{
+      font-size: 16px;
+      font-family: "Roboto Condensed" ;
+      color: black;
+      padding: 10px 0px 10px 0px;
+  }
+  #pro_n2 #p_q2n{
+      font-size: 16px;
+      font-family: "Roboto Condensed" ;
+      color: black;
+      /* padding: 10px 0px 10px 0px; */
+  }
+  
+  #wrapper2n{
+      border: 1px solid black;
+      display: inline;
+      padding: 10px;
+      
+  }
+  #wrapper2n #num2n{
+      padding: 20px;
+  }
+  #pro_n2_n2 button{
+      padding: 10px 32px 10px 32px;
+      background-color: #d22727;
+      border:  1px solid #d22727;
+      cursor: pointer;
+      box-shadow: 0 0 10px  rgba(0,0,0,0.1);
+      transition: all 0.25s;
+      margin-top: 30px;
+  }
+  #pro_n2_n2 button a{
+      text-decoration: none;
+      color: #ffffff;
+      font-family: "Roboto Condensed";
+      font-size: 16px;
+      font-weight: 500;
+  }
+  #pro_n2_n2 button:hover{
+      box-shadow: 0 0 10px  rgba(0,0,0,0.5);
+      transform: scale(1.1);
+      text-transform: none;
+      border:  1px solid #d22727;
+  }
+  /* ------------------------------------------------ */
+  #Product_n #pro_n3{
+     /* border: 2px solid black; */
+  }
+  #pro_n3 #pro_n3img img{
+      width: 300px;
+  }
+  #pro_n3 #pro_n3_n3{
+      text-align: center;
+  }
+  
+  
+  #pro_n3 #p_g3n{
+      font-family: "Worthbites - Rough";
+      color: black;
+      font-size: 27px;
+  }
+  #pro_n3 #p_p3n{
+      font-size: 16px;
+      font-family: "Roboto Condensed" ;
+      color: black;
+      padding: 10px 0px 10px 0px;
+  }
+  #pro_n3 #p_q3n{
+      font-size: 16px;
+      font-family: "Roboto Condensed" ;
+      color: black;
+      /* padding: 10px 0px 10px 0px; */
+  }
+  
+  #wrapper3n{
+      border: 1px solid black;
+      display: inline;
+      padding: 10px;
+      
+  }
+  #wrapper3n #num3n{
+      padding: 20px;
+  }
+  #pro_n3_n3 button{
+      padding: 10px 32px 10px 32px;
+      background-color: #d22727;
+      border:  1px solid #d22727;
+      cursor: pointer;
+      box-shadow: 0 0 10px  rgba(0,0,0,0.1);
+      transition: all 0.25s;
+      margin-top: 30px;
+  }
+  #pro_n3_n3 button a{
+      text-decoration: none;
+      color: #ffffff;
+      font-family: "Roboto Condensed";
+      font-size: 16px;
+      font-weight: 500;
+  }
+  #pro_n3_n3 button:hover{
+      box-shadow: 0 0 10px  rgba(0,0,0,0.5);
+      transform: scale(1.1);
+      text-transform: none;
+      border:  1px solid #d22727;
+  }
+  /* -------------------------------------- */
+  #Product_n #pro_n4{
+     /* border: 2px solid black; */
+  }
+  #pro_n4 #pro_n4img img{
+      width: 300px;
+  }
+  #pro_n4 #pro_n4_n4{
+      text-align: center;
+  }
+  
+  
+  #pro_n4 #p_g4n{
+      font-family: "Worthbites - Rough";
+      color: black;
+      font-size: 27px;
+  }
+  #pro_n4 #p_p4n{
+      font-size: 16px;
+      font-family: "Roboto Condensed" ;
+      color: black;
+      padding: 10px 0px 10px 0px;
+  }
+  #pro_n4 #p_q4n{
+      font-size: 16px;
+      font-family: "Roboto Condensed" ;
+      color: black;
+      /* padding: 10px 0px 10px 0px; */
+  }
+  
+  #wrapper4n{
+      border: 1px solid black;
+      display: inline;
+      padding: 10px;
+      
+  }
+  #wrapper4n #num4n{
+      padding: 20px;
+  }
+  #pro_n4_n4 button{
+      padding: 10px 32px 10px 32px;
+      background-color: #d22727;
+      border:  1px solid #d22727;
+      cursor: pointer;
+      box-shadow: 0 0 10px  rgba(0,0,0,0.1);
+      transition: all 0.25s;
+      margin-top: 30px;
+  }
+  #pro_n4_n4 button a{
+      text-decoration: none;
+      color: #ffffff;
+      font-family: "Roboto Condensed";
+      font-size: 16px;
+      font-weight: 500;
+  }
+  #pro_n4_n4 button:hover{
+      box-shadow: 0 0 10px  rgba(0,0,0,0.5);
+      transform: scale(1.1);
+      text-transform: none;
+      border:  1px solid #d22727;
+  }
+ /* -------------------------------------- */
+/* -------------------Part 3------------------ */
+#Product_n #pro_m1{
+    /* border: 2px solid black; */
+   
+ 
+ }
+ #pro_m1 #pro_m1img img{
+     width: 300px;
+ }
+ #pro_m1 #pro_m1_m1{
+     text-align: center;
+ }
+ 
+ 
+ #pro_m1 #p_gm{
+     font-family: "Worthbites - Rough";
+     color: black;
+     font-size: 27px;
+ }
+ #pro_m1 #p_pm{
+     font-size: 16px;
+     font-family: "Roboto Condensed" ;
+     color: black;
+     padding: 10px 0px 10px 0px;
+ }
+ #pro_m1 #p_qm{
+     font-size: 16px;
+     font-family: "Roboto Condensed" ;
+     color: black;
+     /* padding: 10px 0px 10px 0px; */
+ }
+ 
+ #wrapperm{
+     border: 1px solid black;
+     display: inline;
+     padding: 10px;
+     
+ }
+ #wrapperm #numm{
+     padding: 20px;
+ }
+ #pro_m1_m1 button{
+     padding: 10px 32px 10px 32px;
+     background-color: #d22727;
+     border:  1px solid #d22727;
+     cursor: pointer;
+     box-shadow: 0 0 10px  rgba(0,0,0,0.1);
+     transition: all 0.25s;
+     margin-top: 30px;
+ }
+ #pro_m1_m1 button a{
+     text-decoration: none;
+     color: #ffffff;
+     font-family: "Roboto Condensed";
+     font-size: 16px;
+     font-weight: 500;
+ }
+ #pro_m1_m1 button:hover{
+     box-shadow: 0 0 10px  rgba(0,0,0,0.5);
+     transform: scale(1.1);
+     text-transform: none;
+     border:  1px solid #d22727;
+ }
+ /* ----------------------------------------- */
+  #pro_m2{
+     /* border: 2px solid black; */
+    
+  }
+  #pro_m2 #pro_m2img img{
+      width: 300px;
+  }
+  #pro_m2 #pro_m2_m2{
+      text-align: center;
+  }
+  
+  
+  #pro_m2 #p_g2m{
+      font-family: "Worthbites - Rough";
+      color: black;
+      font-size: 27px;
+  }
+  #pro_m2 #p_p2m{
+      font-size: 16px;
+      font-family: "Roboto Condensed" ;
+      color: black;
+      padding: 10px 0px 10px 0px;
+  }
+  #pro_m2 #p_q2m{
+      font-size: 16px;
+      font-family: "Roboto Condensed" ;
+      color: black;
+      /* padding: 10px 0px 10px 0px; */
+  }
+  
+  #wrapper2m{
+      border: 1px solid black;
+      display: inline;
+      padding: 10px;
+      
+  }
+  #wrapper2m #num2m{
+      padding: 20px;
+  }
+  #pro_m2_m2 button{
+      padding: 10px 32px 10px 32px;
+      background-color: #d22727;
+      border:  1px solid #d22727;
+      cursor: pointer;
+      box-shadow: 0 0 10px  rgba(0,0,0,0.1);
+      transition: all 0.25s;
+      margin-top: 30px;
+  }
+  #pro_m2_m2 button a{
+      text-decoration: none;
+      color: #ffffff;
+      font-family: "Roboto Condensed";
+      font-size: 16px;
+      font-weight: 500;
+  }
+  #pro_m2_m2 button:hover{
+      box-shadow: 0 0 10px  rgba(0,0,0,0.5);
+      transform: scale(1.1);
+      text-transform: none;
+      border:  1px solid #d22727;
+  }
+  /* ------------------------------------------------ */
+ #pro_m3{
+     /* border: 2px solid black; */
+   
+  }
+  #pro_m3 #pro_m3img img{
+      width: 300px;
+  }
+  #pro_m3 #pro_m3_m3{
+      text-align: center;
+  }
+  
+  
+  #pro_m3 #p_g3m{
+      font-family: "Worthbites - Rough";
+      color: black;
+      font-size: 27px;
+  }
+  #pro_m3 #p_p3m{
+      font-size: 16px;
+      font-family: "Roboto Condensed" ;
+      color: black;
+      padding: 10px 0px 10px 0px;
+  }
+  #pro_m3 #p_q3m{
+      font-size: 16px;
+      font-family: "Roboto Condensed" ;
+      color: black;
+      /* padding: 10px 0px 10px 0px; */
+  }
+  
+  #wrapper3m{
+      border: 1px solid black;
+      display: inline;
+      padding: 10px;
+      
+  }
+  #wrapper3m #num3m{
+      padding: 20px;
+  }
+  #pro_m3_m3 button{
+      padding: 10px 32px 10px 32px;
+      background-color: #d22727;
+      border:  1px solid #d22727;
+      cursor: pointer;
+      box-shadow: 0 0 10px  rgba(0,0,0,0.1);
+      transition: all 0.25s;
+      margin-top: 30px;
+  }
+  #pro_m3_m3 button a{
+      text-decoration: none;
+      color: #ffffff;
+      font-family: "Roboto Condensed";
+      font-size: 16px;
+      font-weight: 500;
+  }
+  #pro_m3_m3 button:hover{
+      box-shadow: 0 0 10px  rgba(0,0,0,0.5);
+      transform: scale(1.1);
+      text-transform: none;
+      border:  1px solid #d22727;
+  }
+  /* -------------------------------------- */
+   #pro_m4{
+     /* border: 2px solid black; */
+  }
+  #pro_m4 #pro_m4img img{
+      width: 300px;
+  }
+  #pro_m4 #pro_m4_m4{
+      text-align: center;
+  }
+  
+  
+  #pro_m4 #p_g4m{
+      font-family: "Worthbites - Rough";
+      color: black;
+      font-size: 27px;
+  }
+  #pro_m4 #p_p4m{
+      font-size: 16px;
+      font-family: "Roboto Condensed" ;
+      color: black;
+      padding: 10px 0px 10px 0px;
+  }
+  #pro_m4 #p_q4m{
+      font-size: 16px;
+      font-family: "Roboto Condensed" ;
+      color: black;
+      /* padding: 10px 0px 10px 0px; */
+  }
+  
+  #wrapper4m{
+      border: 1px solid black;
+      display: inline;
+      padding: 10px;
+      
+  }
+  #wrapper4m #num4m{
+      padding: 20px;
+  }
+  #pro_m4_m4 button{
+      padding: 10px 32px 10px 32px;
+      background-color: #d22727;
+      border:  1px solid #d22727;
+      cursor: pointer;
+      box-shadow: 0 0 10px  rgba(0,0,0,0.1);
+      transition: all 0.25s;
+      margin-top: 30px;
+  }
+  #pro_m4_m4 button a{
+      text-decoration: none;
+      color: #ffffff;
+      font-family: "Roboto Condensed";
+      font-size: 16px;
+      font-weight: 500;
+  }
+  #pro_m4_m4 button:hover{
+      box-shadow: 0 0 10px  rgba(0,0,0,0.5);
+      transform: scale(1.1);
+      text-transform: none;
+      border:  1px solid #d22727;
+  }
+ /* -------------------------------------- */
+ /* <!-- ======================Product ends============================================================================ --> */
+/* ======================================Footer starts============================================== */
+#footer{
+    background-color: #f7e6e6;
+}
+#first_f{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+    /* border: 2px solid black; */
+    padding-top: 50px;
+}
+#footer_1 #footer_1_1{
+    padding: 10px;
+    /* border: 2px solid black; */
+}
+#footer_1 #footer_1_1 #miss{
+    font-family: "Worthbites - Rough";
+    color: black;
+    font-size: 60px;
+    padding: 10px 0px 10px 0px;
+
+}
+#footer_1 #footer_1_1 p{
+    font-family: "Roboto Condensed" ;
+font-size: 16px;
+color: black;
+padding: 5px 0px 10px 0px;
+height: 48px;
+width: 340px;
+}
+#footer_1 #footer_1_1 #input input{
+    /* padding: 20px; */
+    background-color: #ffffff;
+    padding: 12px 20px 12px 20px;
+    color: black;
+    font-family: "Roboto Condensed" ;
+    font-size: 15px;
+    border: 2px solid #ffffff;
+    
+
+
+}
+#footer_1 #footer_1_1 #input button{
+    padding: 15px ;
+    height: 44px;
+    width: 44px;
+    background-color: #d22727;
+    border:  1px solid #d22727;
+    cursor: pointer;
+}
+#footer_1 #footer_1_1 #input button i{
+    font-size: 15px;
+    color: #ffffff;
+}
+
+#first_f #footer_2{
+    margin: 20px;
+}
+#first_f #footer_2 #footer_2_2{
+    /* padding: 10px; */
+    /* border: 2px solid red; */
+
+}
+#footer_2 #footer_2_2 #ser{
+    font-family: "Roboto Condensed" ;
+    font-size: 18px;
+    color: black;
+    padding: 8px ;
+    font-weight: 600;
+   
+}
+#footer_2 #footer_2_2 #p,#r,#s,#t{
+    font-family: "Roboto Condensed" ;
+    font-size: 16px;
+    padding: 8px;
+
+}
+#first_f #footer_3{
+    margin: 20px;
+}
+#footer_3 #footer_3_3{
+
+}
+#footer_3 #footer_3_3 #comp{
+    font-family: "Roboto Condensed" ;
+    font-size: 18px;
+    color: black;
+    padding: 8px ;
+    font-weight: 600;
+    /* margin-bottom: 10px; */
+
+}
+#footer_3 #footer_3_3 #f{
+    margin-bottom: 10px;
+}
+#footer_3 #footer_3_3 #f a{
+    color: black;
+}
+#footer_3 #footer_3_3 #f,#hello{
+    font-family: "Roboto Condensed" ;
+    font-size: 16px;
+    padding: 8px;
+}
+
+#first_f #footer_4{
+    margin: 20px;
+}
+#footer_4 #footer_4_4 #social{
+    font-family: "Roboto Condensed" ;
+    font-size: 18px;
+    color: black;
+    padding: 8px ;
+    font-weight: 600;
+}
+
+#footer_4 #footer_4_4 #icon{
+    padding: 10px;
+}
+#footer_4 #footer_4_4 #icon i{
+    margin: 10px;
+    font-size: 25px;
+    color: black;
+}
+
+#footer #second_f{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+#second_f #mini{
+    padding-left: 80px;
+    padding-top: 20px;
+    /* margin: 40px; */
+    /* border: 2px solid black; */
+   
+}
+#second_f #icon_visa{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* border: 2px solid rgb(68, 49, 49); */
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+
+}
+#second_f #icon_visa div{
+    padding: 10px;
+ 
+  
+  
+}
+#second_f #icon_visa div img{
+    width: 30px;
+    background-color: #ffffff;
+    padding: 6px;
+
+  
+}
+
+
+

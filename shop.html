@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="shop.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+    <!-- ============================Shop Page============================================== -->
+
+    <!-- ===================================Nav bar=========================================== -->
+     
+   <input type="checkbox" id="inputbox" hidden>
+   <label for="inputbox"><i id="bars" class="fa fa-bars"></i></label>
+   
+    <ul id="nav">
+        <li>
+            <ul id="nav1">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="shop.html">SHOP</a></li>
+                <li><a href="product.html">PRODUCT</a></li>
+                <li><a href="contact.html">PAGES</a></li>
+                <li><a href="payment.html">FOXKIT</a></li>
+            </ul>
+        </li>
+        <li id="nav2">
+           <a href=""><img src="./MMimages/logo.png" alt="Loading"></a> 
+        </li>
+        <li>
+            <ul id="nav3">
+                <li ><a href="index.html"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                <li id="pers"><a href="login.html"><i class="fa-regular fa-user"></i></a></li>
+                <li id="hear"><a href="./wishlist.html"><i class="fa-regular fa-heart"></i></a></li>
+                <li id="cros"><a href="compare.html"><i class="fa fa-random"></i></a></li>
+                <li ><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+
+            </ul>
+        </li>
+    </ul>
+    <!-- ============================Nav Bar ends============================= -->
+    <!-- =============================Shop start========================================== -->
+    <section id="shop">
+        <div id="shop_1">  
+            <div id="s_1"><a href="">Shop Pages</a></div>
+            <div><a href="">Get pizza from here</a></div>
+            <div><a href="">Get pizza images</a></div>
+            <div><a href="">Get pizza backgrounds</a></div>
+            <div><a href="">Pizza variety</a></div>
+            <div><a href="">More Pizza images</a></div>
+        </div>
+        
+        <div id="shop_2">
+            <div id="s_2"><a href="">Shop Pages</a></div>
+            <div><a href="">Amazing pizza</a></div>
+            <div><a href=""> pizza images</a></div>
+            <div><a href=""> pizza backgrounds</a></div>
+            <div><a href="">Pizza variety</a></div>
+            <div><a href="">More Pizza images</a></div>
+        </div>
+        <div id="shop_3">
+            <div id="s_3"><a href="">Shop Pages</a></div>
+            <div><a href="">  pizza icon</a></div>
+            <div><a href=""> scroll images</a></div>
+            <div><a href="">  backgrounds</a></div>
+            <div><a href=""> variety</a></div>
+            <div><a href="">More Pizza images</a></div>
+        </div>
+        <div id="shop_4">
+            <img src="./MMimages/shopImg/img_T1.jpg" width="390px" height="230px" alt="">
+            <div id="s_4">New collection</div>
+        </div>
+       
+
+    </section>
+    <!-- -============================shop main starts================================================================ -->
+    <div id="shop_main"> </div>
+
+    <!-- ==================================Week Pizza starts=========================================================== -->
+    <div id="week_pizza">
+        <div id="week_p_1">
+            <div id="w_gd">GOOD TASTE</div>
+            <div id="w_week">THIS WEEK'S PIZZAS</div>
+        </div>
+    
+        <div id="week_p_2" >
+            <div id="w_f1" onmouseenter="show()" onmouseleave="show1()">
+                 <div id="imgs1"><a href="product.html"> <img id="mg1" src="./MMimages/P1.png" alt=""></a></div> 
+               <div id="p_p_1">
+                 <div><a href="#">PUGLIESE PIZZA</a></div>
+                 <div id="r_1">$29.00</div>
+               </div> 
+    
+            </div>
+            <div id="w_f2" onmouseenter="show2()" onmouseleave="show3()">
+               <div id="imgs2"> <a href="product.html"><img id="mg2" src="./MMimages/p22.png" alt=""></a></div>
+              <div id="p_p_2">
+                <div><a href="#">PIZZA FIORI DI ZUCCA</a></div>
+                <div id="r_2">$49.00</div>
+              </div> 
+               
+            </div>
+            <div id="w_f3" onmouseenter="show4()" onmouseleave="show5()">
+               <div id="imgs3"> <a href="product.html"><img id="mg3" src="./MMimages/p3.png " alt=""></a></div>
+               <div id="p_p_3">
+                  <div><a href="#">PIZZA AI FRUTTI DI MARE</a></div>
+                 <div id="r_3">$42.00</div>
+               </div>
+            </div>
+            <div id="w_f4"  onmouseenter="show6()" onmouseleave="show7()">
+              <div id="imgs4"> <a href="product.html"><img id="mg4" src="./MMimages/p444.webp" alt=""></a></div> 
+              <div id="p_p_4">
+                  <div><a href="#">PIZZA AL PADELLING</a></div>
+                 <div id="r_4">$39.00</div>
+             </div>
+            </div>
+         </div>
+      </div>
+    <script  src="shop.js"></script>
+    
+    <!-- =========================================Week Pizza ends======================================================= -->
+   <!-- /* ==================================Customer fav ============================================= */ -->
+      
+   <div id="customer_fav">
+      <div id="customer_fav_1">
+        <div id="gd_t">GOOD TASTE</div>
+        <div id="fav">CUSTOMER FAVORITES</div>
+       </div>
+
+      <div id="customer_fav_2" >
+           <div id="c_f1" onmouseenter="run()" onmouseleave="run1()">
+             <div id="img1"><a href="product.html"> <img id="m1" src="./MMimages/P1.png" alt=""></a></div> 
+           <div id="G_R_1">
+             <div><a href="#">GRILLED PIZZA</a></div>
+             <div id="r1">$45.00</div>
+           </div> 
+
+        </div>
+        <div id="c_f2" onmouseenter="run2()" onmouseleave="run3()">
+           <div id="img2"> <a href="product.html"><img id="m2" src="./MMimages/p22.png" alt=""></a></div>
+          <div id="G_R_2">
+            <div><a href="#">PIZZA FIORI DI ZUCCA</a></div>
+            <div id="r2">$49.00</div>
+          </div> 
+           
+        </div>
+        <div id="c_f3" onmouseenter="run4()" onmouseleave="run5()">
+           <div id="img3"> <a href="product.html"><img id="m3" src="./MMimages/p3.png " alt=""></a></div>
+           <div id="G_R_3">
+              <div><a href="#">PIZZA AI FRUTTI DI MARE</a></div>
+             <div id="r3">$42.00</div>
+           </div>
+        </div>
+        <div id="c_f4"  onmouseenter="run6()" onmouseleave="run7()">
+          <div id="img4"> <a href="product.html"><img id="m4" src="./MMimages/p444.webp" alt=""></a></div> 
+          <div id="G_R_4">
+              <div><a href="#">PIZZA AL PADELLING</a></div>
+             <div id="r4">$39.00</div>
+         </div>
+        </div>
+     </div>
+  </div>
+  <!-- ========================================================================================================== -->
+ <!-- ======================================Recently view====================================================== -->
+ <div id="Recent_fav">
+    <div id="Recent_fav_1">
+      <div id="rgd_t">GOOD TASTE</div>
+      <div id="rfav">RECENTLY VIEWED</div>
+     </div>
+
+    <div id="Recent_fav_2" >
+         <div id="rc_f1" onmouseenter="run_r()" onmouseleave="run1_r()">
+           <div id="rimg1"><a href="product.html"> <img id="m1r" src="./MMimages/shopImg/Rec_7s.jpg" alt=""></a></div> 
+         <div id="G_R_1r">
+           <div><a href="#">GRILLED PIZZA</a></div>
+           <div id="rr1">$45.00</div>
+         </div> 
+
+      </div>
+      <div id="rc_f2" onmouseenter="run2_r()" onmouseleave="run3_r()">
+         <div id="rimg2"> <a href="product.html"><img id="m2r" src="./MMimages/shopImg/Rec_22.jpg" alt=""></a></div>
+        <div id="G_R_2r">
+          <div><a href="#">PIZZA FIORI DI ZUCCA</a></div>
+          <div id="rr2">$49.00</div>
+        </div> 
+         
+      </div>
+      <div id="rc_f3" onmouseenter="run4_r()" onmouseleave="run5_r()">
+         <div id="rimg3"> <a href="product.html"><img id="m3r" src="./MMimages/shopImg/Rec_11s.png" alt=""></a></div>
+         <div id="G_R_3r">
+            <div><a href="#">PIZZA AI FRUTTI DI MARE</a></div>
+           <div id="rr3">$42.00</div>
+         </div>
+      </div>
+      <div id="rc_f4"  onmouseenter="run6_r()" onmouseleave="run7_r()">
+        <div id="rimg4"> <a href="product.html"><img id="m4r" src="./MMimages/shopImg/Rec_12s.png" alt=""></a></div> 
+        <div id="G_R_4r">
+            <div><a href="#">PIZZA AL PADELLING</a></div>
+           <div id="rr4">$39.00</div>
+       </div>
+      </div>
+   </div>
+</div>
+<!-- ===================================================Recently view ends================================================ -->
+   <!-- ====================================Footer starts======================================================= -->
+
+   <footer id="footer">
+    <div id="first_f">
+  
+        <div id="footer_1">
+          <div id="footer_1_1">
+  
+              <div id="miss">DON'T MISS A THING</div>
+  
+              <p>Enter your email below to be the first to know about new collections and product launches.</p>
+              <div id="input">
+                  <input type="email" name="inp" id="inp" value="Enter your email">
+              
+                      <button><i class="fa-solid fa-arrow-right"></i></button>
+                  </div>
+  
+          </div>
+  
+        </div>
+  
+        <div id="footer_2">
+          <div id="footer_2_2">
+  
+              <div id="ser">SERVICES</div>
+  
+              <div id="p">Privacy policy</div>
+              <div id="r">Refund policy</div>
+              <div id="s">Shipping & Return</div>
+              <div id="t">Term & conditions</div>
+  
+  
+          </div>
+  
+        </div>
+  
+        <div id="footer_3">
+          <div id="footer_3_3">
+  
+              <div id="comp">COMPANY</div>
+  
+              <div id="f">Find a location nearest you. <br><a href="#">See Our Stores</a></div>
+               <div id="hello">
+                  +319 (0)35 2568 4593 <br> hello@domain.com
+               </div>
+          </div>
+        </div>
+  
+      
+        <div id="footer_4">
+          <div id="footer_4_4">
+  
+              <div id="social">SOCIAL MEDIA</div>
+  
+              <div id="icon">
+                  <a href="https://in.pinterest.com/"><i class="fa-brands fa-pinterest-p"></i></a>
+                  <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="https://twitter.com/i/flow/login"><i class="fa-brands fa-x-twitter"></i></a>
+              </div>
+           </div>
+       </div>
+    </div>
+  
+  
+      <div id="second_f">
+          <div id="mini">
+              © Minimog 2024
+          </div>
+          <div id="icon_visa">
+             <div><img src="https://shoplineimg.com/assets/footer/card_visa.png" alt=""></div> 
+              <div><img src="https://shoplineimg.com/assets/footer/card_master.png" alt=""></div> 
+             <div><img src="https://shoplineimg.com/assets/footer/card_paypal.png" alt=""></div>
+  
+               
+          </div>
+      </div>
+  </footer>
+
+
+
+
+</body>
+</html>
